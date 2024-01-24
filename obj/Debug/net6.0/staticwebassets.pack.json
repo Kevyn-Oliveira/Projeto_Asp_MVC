@@ -13,6 +13,30 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\img\\imagemjogo1.jpg",
+      "PackagePath": "staticwebassets\\img\\imagemjogo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\img\\imagemjogo2.jpg",
+      "PackagePath": "staticwebassets\\img\\imagemjogo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\img\\imagemjogo3.jpg",
+      "PackagePath": "staticwebassets\\img\\imagemjogo3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\img\\imagemjogo4.jpg",
+      "PackagePath": "staticwebassets\\img\\imagemjogo4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\img\\jogolancamento1.jpg",
+      "PackagePath": "staticwebassets\\img\\jogolancamento1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\img\\joystick.png",
+      "PackagePath": "staticwebassets\\img\\joystick.png"
+    },
+    {
       "Id": "C:\\Users\\kevyn.oliveira\\Entra21\\VisualStudio\\C#\\ASP NET\\ProjetoAspMvc\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

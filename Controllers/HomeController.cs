@@ -18,7 +18,12 @@ namespace ProjetoAspMvc.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Videos()
+        {
+            return View();
+        }
+
+        public IActionResult Analises()
         {
             return View();
         }

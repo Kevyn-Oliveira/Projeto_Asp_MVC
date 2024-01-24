@@ -1,3 +1,7 @@
+*{
+    /*border: 1px solid red;*/
+}
+
 html {
   font-size: 14px;
 }
@@ -15,4 +19,78 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+#headerWrapper {
+    background-color: black;
+}
+
+#logoTitleDisplay {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+#siteLogo {
+    width: 150px
+}
+#title {
+    color: white;
+    font-size: 50px;
+    margin: auto 15px;
+}
+
+#title b {
+    color: dodgerblue;
+}
+
+#menuLinks {
+    display: inline-flex;
+    margin-left: 370px;
+}
+
+#menuLinks li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px
+}
+
+#menuLinks a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.newsCard {
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.newsCard img {
+    display: inline-block;
+    height: 100%;
+}
+
+.newsCard div {
+    margin: 5px;
+    display: inline-block;
+}
+
+h1{
+    margin: 20px;
+}
+
+.newsContainer {
+    width: 75%;
+    display: inline-block;
+}
+
+.lateralNav {
+    width: 25%;
+    display: inline-block;
+    border-left: 1px solid gray;
+    padding: 5px;
 }
