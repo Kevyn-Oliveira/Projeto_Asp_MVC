@@ -1,5 +1,7 @@
 *{
     /*border: 1px solid red;*/
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -17,80 +19,99 @@ html {
   min-height: 100%;
 }
 
-body {
-  margin-bottom: 60px;
+#conteudoPrincipal{
+    margin-bottom: 65px;
 }
 
+/*Configurações do header*/
 #headerWrapper {
     background-color: black;
 }
 
-#logoTitleDisplay {
-    margin-left: 20px;
-    display: inline-block;
+#headerWrapper .container {
+    display: grid;
+    grid-template-columns: 50% 50%
 }
 
-#siteLogo {
-    width: 150px
+#headerWrapper img {
+    height: 150px
 }
-#title {
+
+#headerWrapper b {
     color: white;
     font-size: 50px;
+    margin: auto 25px;
+}
+
+#headerWrapper b b {
+    color: dodgerblue;
+    margin-left: 0px;
+}
+
+#logoTitleDisplay {
+    display: flex;
     margin: auto 15px;
 }
 
-#title b {
-    color: dodgerblue;
-}
-
 #menuLinks {
-    display: inline-flex;
-    margin-left: 370px;
+    display: flex;
+    margin: auto 15px auto auto;
+}
+#menuLinks ul {
+    display: inline-block;
+    margin: auto 25px;
 }
 
 #menuLinks li {
     list-style: none;
     display: inline-block;
-    margin: 5px
+    margin: auto 10px;
+    font-size: 35px;
 }
 
 #menuLinks a {
-    color: white;
     text-decoration: none;
-    font-size: 30px;
+    color: white;
+}
+
+/*Configuração do conteudo principal das noticias*/
+
+#newsWrapper {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#newsContainer {
+    padding: 0 10px;
+}
+
+#noticiasTitle {
+    margin: 15px auto;
+    text-align: center;
 }
 
 .newsCard {
-    margin-top: 5px;
-    border: 1px solid gray;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 24% 74%;
     border-radius: 10px;
-    width: 100%;
-    height: 200px;
     overflow: hidden;
+    border: 1px solid gray;
+    justify-content: space-between;
 }
 
 .newsCard img {
-    display: inline-block;
-    height: 100%;
+    width: 100%;
 }
 
-.newsCard div {
-    margin: 5px;
-    display: inline-block;
+.newsCardContent {
+    margin: auto 0px;
 }
 
-h1{
-    margin: 20px;
-}
 
-.newsContainer {
-    width: 75%;
-    display: inline-block;
-}
 
-.lateralNav {
-    width: 25%;
-    display: inline-block;
+#lateralNav {
     border-left: 1px solid gray;
-    padding: 5px;
+    margin: 15px;
+    padding: 10px;
 }
