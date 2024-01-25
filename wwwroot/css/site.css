@@ -108,10 +108,21 @@ html {
     margin: auto 0px;
 }
 
-
-
 #lateralNav {
     border-left: 1px solid gray;
     margin: 15px;
     padding: 10px;
+}
+
+#lateralNav .smallNewsCard {
+    display: grid;
+    grid-template-columns: 45% 50%;
+    margin-top: 15px;
+    justify-content: space-between;
+    text
+}
+
+#lateralNav img {
+    width: 100%;
+    border-radius: 5px
 }
