@@ -24,6 +24,7 @@ html {
 }
 
 /*Configurações do header*/
+
 #headerWrapper {
     background-color: black;
 }
@@ -119,10 +120,42 @@ html {
     grid-template-columns: 45% 50%;
     margin-top: 15px;
     justify-content: space-between;
-    text
 }
 
 #lateralNav img {
     width: 100%;
     border-radius: 5px
+}
+
+/*Configurações do conteudo principal dos videos*/
+
+#videosWrapper {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+#videoPrincipal {
+    position: relative;
+    height: 550px;
+    display: flex;
+    margin: 10px;
+}
+
+#videoPrincipal img {
+    width: 100%;
+}
+
+#videoPrincipal h3 {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    top: 85%;
+    left: 1%;
+}
+
+/*Configurações do conteudo principal das análises*/
+
+#analisesWrapper {
+    display: grid;
+    grid-template-columns: 75% 25%;
 }

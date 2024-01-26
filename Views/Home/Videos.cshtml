@@ -1,3 +1,45 @@
 ﻿@{
     ViewData["Title"] = "Vídeos";
 }
+
+<div id="videosWrapper">
+    <div id="contentWrapper">
+        <h1 id="noticiasTitle">Video principal</h1>
+        <div id="videoPrincipal" onmouseover="Destacar(this)" onmouseout="Desdestacar(this)">
+            <img src="~/img//jogolancamento1.jpg"/>
+            <h3>Video sobre o jogo</h3>
+        </div>
+    </div>
+    <div id="lateralNav">
+        <h2>Ultimas notícias</h2>
+        <div class="smallNewsCard">
+            <img src="../img/imagemjogo1.jpg" />
+            <div>
+                <h3>Notícia 1</h3>
+                <p>mi proin sed libero enim sed faucibus turpis in eu mi...</p>
+            </div>
+        </div>
+        <div class="smallNewsCard">
+            <img src="../img/imagemjogo2.jpg" />
+            <div>
+                <h3>Notícia 2</h3>
+                <p>vestibulum mattis ullamcorper velit sed ullamcorper m...</p>
+            </div>
+        </div>
+        <div class="smallNewsCard">
+            <img src="../img/imagemjogo3.jpg" />
+            <div>
+                <h3>Notícia 3</h3>
+                <p>at tellus at urna condimentum mattis pellentesque id ...</p>
+            </div>
+        </div>
+        <div class="smallNewsCard">
+            <img src="../img/imagemjogo4.jpg" />
+            <div>
+                <h3>Notícia 4</h3>
+                <p>nunc vel risus commodo viverra maecenas accumsan lacu...</p>
+            </div>
+        </div>
+
+    </div>
+</div>
