@@ -9,6 +9,9 @@ namespace ProjetoAspMvc.Models
         [Column ("username")]
         [Display (Name = "Username")]
         public string userName { get; set; }
+        [Column("email")]
+        [Display(Name = "Email")]
+        public string email { get; set; }
         [Column ("password")]
         [Display (Name = "Password")]
         public string password { get; set; }

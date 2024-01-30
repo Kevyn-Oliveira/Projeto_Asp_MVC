@@ -9,65 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProjetoAspMvc
 build_property.RootNamespace = ProjetoAspMvc
-build_property.ProjectDir = C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\ASP NET\ProjetoAspMvc\
+build_property.ProjectDir = C:\Users\kdoke\source\repos\ProjetosAula\Projeto_Asp_MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\kevyn.oliveira\Entra21\VisualStudio\C#\ASP NET\ProjetoAspMvc
+build_property.MSBuildProjectDirectory = C:\Users\kdoke\source\repos\ProjetosAula\Projeto_Asp_MVC
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Home/Analises.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Autenticacao/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0ZW50aWNhY2FvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Home/Analises.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBbmFsaXNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Home/Index.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Home/Login.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Home/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Home/Videos.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Home/Videos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWaWRlb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Noticias/Create.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Noticias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Noticias/Delete.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Noticias/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Noticias/Details.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Noticias/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Noticias/Edit.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Noticias/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Noticias/Index.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Noticias/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Shared/Error.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/_ViewImports.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/_ViewStart.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/kevyn.oliveira/Entra21/VisualStudio/C\#/ASP NET/ProjetoAspMvc/Views/Shared/_Layout.cshtml]
+[C:/Users/kdoke/source/repos/ProjetosAula/Projeto_Asp_MVC/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tbde42c7t4

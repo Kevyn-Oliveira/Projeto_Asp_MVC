@@ -1,0 +1,28 @@
+﻿@model ProjetoAspMvc.Models.Usuario
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login", "Autenticacao", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.userName)
+        @Html.TextBoxFor(model => model.email, new { @class = "form-control" })
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.password)
+        @Html.PasswordFor(model => model.password, new { @class = "form-control" })
+    </div>
+
+    <button type="submit" class="btn btn-primary">Entrar</button>
+
+    <div class="text-danger">
+        @ViewBag.MensagemErro
+    </div>
+}
