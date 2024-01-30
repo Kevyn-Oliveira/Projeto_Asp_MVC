@@ -18,7 +18,6 @@ namespace ProjetoAspMvc.Controllers
             _context = context;
         }
 
-        // GET: Noticias
         public async Task<IActionResult> Index()
         {
               return _context.Noticia != null ? 
@@ -26,7 +25,6 @@ namespace ProjetoAspMvc.Controllers
                           Problem("Entity set 'Contexto.Noticia'  is null.");
         }
 
-        // GET: Noticias/Details/5
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null || _context.Noticia == null)
@@ -44,15 +42,11 @@ namespace ProjetoAspMvc.Controllers
             return View(noticia);
         }
 
-        // GET: Noticias/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Noticias/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,TituloNoticia")] Noticia noticia)
@@ -66,7 +60,6 @@ namespace ProjetoAspMvc.Controllers
             return View(noticia);
         }
 
-        // GET: Noticias/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || _context.Noticia == null)
@@ -82,9 +75,6 @@ namespace ProjetoAspMvc.Controllers
             return View(noticia);
         }
 
-        // POST: Noticias/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,TituloNoticia")] Noticia noticia)
@@ -117,7 +107,6 @@ namespace ProjetoAspMvc.Controllers
             return View(noticia);
         }
 
-        // GET: Noticias/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null || _context.Noticia == null)
@@ -135,7 +124,6 @@ namespace ProjetoAspMvc.Controllers
             return View(noticia);
         }
 
-        // POST: Noticias/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

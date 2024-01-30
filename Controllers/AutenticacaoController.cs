@@ -16,12 +16,10 @@ public class AutenticacaoController : Controller
 
         if (usuario.userName == "Keol" && usuario.password == "senha")
         {
-            // Autenticação bem-sucedida, redirecione para a página principal
             return RedirectToAction("Index", "Home");
         }
         else
         {
-            // Autenticação falhou, exiba uma mensagem de erro
             ViewBag.MensagemErro = "Credenciais inválidas. Tente novamente.";
             return View();
         }

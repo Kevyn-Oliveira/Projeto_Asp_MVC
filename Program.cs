@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
  (options => options.UseSqlServer
- ("Data Source=JLE207P060985;Initial Catalog=Noticia-Projeto-ASP;Integrated Security = False; User Id = sa; Password = @admin123; encrypt = false; "));
+ ("Data Source=JLE207P060985;Initial Catalog=Portal_Jogos;Integrated Security = False; User Id = sa; Password = @admin123; encrypt = false; "));
 
 var app = builder.Build();
 
@@ -34,8 +34,8 @@ app.UseEndpoints(endpoints =>
         pattern: "{controller=Autenticacao}/{action=Login}/{id?}");
 });
 
-//app.MapControllerRoute(
-//    name: "default",
-//    pattern: "{controller=Autenticacao}/{action=Login}/{id?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Autenticacao}/{action=Login}/{id?}");
 
 app.Run();

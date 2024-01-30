@@ -6,6 +6,7 @@ namespace ProjetoAspMvc.Models
     {
         public Contexto(DbContextOptions<Contexto> options) : base(options) { }
         
-        public DbSet<Noticia> Noticia { get; set; }
+        //public DbSet<Noticia> Noticia { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }
